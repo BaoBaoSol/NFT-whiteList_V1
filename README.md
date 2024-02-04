@@ -2,7 +2,9 @@
 White listing is a technique to restrict access to certain functions or privileges in a smart contract. One way to implement white listing is to use a Merkle tree, a data structure that allows efficient verification of membership and non-membership. White Listing mechanism implemented Using Solidity and Go, and for this purpose we used Solidity to implement Merkle Tree, Go is used for Deploying, Interacting and Testing Smart Contract.
 
 ## Compiling
-The Artifacts directory contains compiled smart contract Using Abigen and Solc (You need docker to be run for this), the ABI, BIN and also Go interface. In case of any changes to the smart contract you should compile it again, there is a compile.sh file in root directory, just run in to get new compiled data! If artifacts directory is not empty, use `--overwrite` flag to force it or just simply delete files. 
+
+The Artifacts directory contains compiled smart contract Using Abigen and Solc (You need docker to be run for this), the ABI, BIN and also Go interface. In case of any changes to the smart contract you should compile it again, there is a compile.sh file in root directory, just run in to get new compiled data! If artifacts directory is not empty, use `--overwrite` flag to force it or just simply delete files.
+
 
 ## Network
 For test purposes I used Ganache, If you want the same account to work just use bellow command
