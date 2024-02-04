@@ -1,6 +1,7 @@
 {
     "configurations": [
         {
+            //Manual configuration can be used here
             "name": "Mac",
             "includePath": [
                 "${workspaceFolder}/**"
@@ -17,3 +18,5 @@
     ],
     "version": 4
 }
+
+//
